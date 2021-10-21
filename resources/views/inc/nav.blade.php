@@ -46,13 +46,52 @@
             L Database
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{ route('laravel.getting_started') }}">Getting Started</a>       
-            <a class="dropdown-item" href="{{ route('laravel.getting_started') }}">Query Builder</a>       
+            {{-- <a class="dropdown-item" href="{{ route('aa') }}">Getting Started</a>        --}}
+            <a class="dropdown-item" href="{{ route('laravel.database.get_started') }}">Getting Started</a>       
+            <a class="dropdown-item" href="{{ route('laravel.query_builder') }}">Query Builder</a>       
             
           </div>
         </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Security
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('laravel.authentication') }}">Authentication</a>     
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            L Digging Deeper
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('laravel.mail') }}">Mail</a>     
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            L Eloquent
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('laravel.eloquent.getting_started') }}">Getting Started</a>     
+            
+          </div>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('defination') }}">defination</a>
+        </li>
         
       </ul>
+      
      
     </div>
   </nav>
+
+  

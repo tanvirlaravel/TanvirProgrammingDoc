@@ -1,6 +1,7 @@
 <?php
 
 Route::view('/', 'welcome')->name('home');
+Route::view('/defination', 'definations.defination')->name('defination');
 
 /* Definations */
 Route::view('/stateless/protocole', 'definations/stateless')->name('definations.stateless');
@@ -15,6 +16,8 @@ Route::view('/http/responses', 'http.responses')->name('http.responses');
 /* end of HTTP */
 
 /* Laravel */
+
+// Basic  
 Route::view('/laravel/routing', 'laravel.basic.routing.routing')->name('laravel.routing');
 Route::view('/laravel/CSRFProtection', 'laravel.basic.CSRFProtection.CSRFProtection')->name('laravel.CSRFProtection');
 Route::view('/laravel/controllers', 'laravel.basic.controllers.controllers')->name('laravel.controllers');
@@ -24,9 +27,21 @@ Route::view('/laravel/session', 'laravel.basic.session.session')->name('laravel.
 Route::view('/laravel/views', 'laravel.basic.views.views')->name('laravel.views');
 
 
+// Database 
 
-Route::view('/laravel/getting_started', 'laravel.database.getting_started')->name('laravel.getting_started');
-Route::view('/laravel/query_builder', 'laravel.database.query_builder')->name('laravel.query_builder');
+Route::view('/laravel/database/getting_started', 'laravel.database.getting_started')->name('laravel.database.get_started');
+Route::view('/laravel/database/query_builder', 'laravel.database.query_builder')->name('laravel.query_builder');
+
+// Eloquent 
+Route::view('/laravel/eloquent/getting_started', 'laravel.eloquent.getting_started')->name('laravel.eloquent.getting_started');
+
+
+// Security
+Route::view('/laravel/authentication', 'laravel.Security.authentication')->name('laravel.authentication');
+
+
+// Digging Depper
+Route::view('/laravel/mail', 'laravel.DiggingDeeper.mail')->name('laravel.mail');
 
 /* end of Laravel */
 
