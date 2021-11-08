@@ -2,29 +2,24 @@
 
 @section('content')
 
-<h2 class="my-4 text-info text-center">Session</h2>
+<h2 class="my-4 text-info text-center">Array Functions</h2>
 
 <div class="row">
     <div class="col-3">
-        <div class="nav flex-column nav-pills card" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-           
-            
-            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home">Change Key Case </a> 
-            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings">Column</a> 
-        
-            
-        
-            <a class="nav-link" data-toggle="pill" href="#Fallback-Routes">Combine</span></a>
-        
-        
-        </div>
+        @include('php.array_functions._menu_array')
     </div>
     <div class="col-9">
         <div class="tab-content" id="v-pills-tabContent">
 
           @include('php.array_functions._change_key')
           @include('php.array_functions._column')
+          @include('php.array_functions._combine')
+          @include('php.array_functions._count_values')
+          @include('php.array_functions._array_diff')
+          @include('php.array_functions._array_diff_assoc')
+          @include('php.array_functions._array_diff_key')
+
+          @include('php.array_functions._array_merge')
 
            
            
