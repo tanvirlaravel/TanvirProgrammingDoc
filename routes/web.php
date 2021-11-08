@@ -6,6 +6,14 @@ Route::view('/defination', 'definations.defination')->name('defination');
 /* Definations */
 Route::view('/stateless/protocole', 'definations/stateless')->name('definations.stateless');
 
+/* PHP */
+Route::view('/php/array_functions', 'php.array_functions.array_functions')->name('php.array.functions');
+Route::view('/php/timeDate', 'php.time_date.time_date')->name('php.time_date.time_date');
+Route::view('/php/definations', 'php.definations.definations')->name('php.definations.definations');
+
+/* end of PHP */
+
+
 /* HTTP */
 Route::view('/http', 'http.http')->name('http.others');
 Route::view('/http/home', 'http.home')->name('http.home');

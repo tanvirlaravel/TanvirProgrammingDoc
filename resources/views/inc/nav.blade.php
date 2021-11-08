@@ -9,6 +9,18 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PHP
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('php.array.functions') }}">Array Functions</a>
+            <a class="dropdown-item" href="{{ route('php.time_date.time_date') }}">Time & Date</a>
+            <a class="dropdown-item" href="{{ route('php.definations.definations') }}">Definations of PHP</a>
+           
+          </div>
+        </li>
       
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

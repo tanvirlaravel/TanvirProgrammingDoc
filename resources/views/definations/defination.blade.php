@@ -5,6 +5,9 @@
 
 <h1 class="my-4 text-info text-center display-3">Defination</h1>
 <div class="row">
+
+
+
     <div class="col">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
