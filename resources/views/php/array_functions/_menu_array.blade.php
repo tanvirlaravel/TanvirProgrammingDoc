@@ -8,7 +8,7 @@
     <a class="nav-link" id="v-pills-count_values-tab" data-toggle="pill" href="#count_values">Count values</a> 
     <a class="nav-link" id="v-pills-array_diff-tab" data-toggle="pill" href="#array_diff">diff</a> 
     <a class="nav-link" id="v-pills-array_diff_assoc-tab" data-toggle="pill" href="#array_diff_assoc">diff assoc</a> 
-    <a class="nav-link" id="v-pills-array_diff_key-tab" data-toggle="pill" href="#array_diff_key">array diff key</a> 
+    <a class="nav-link" id="v-pills-array_diff_key-tab" data-toggle="pill" href="#array_diff_key">diff key</a> 
 
 
     <a class="nav-link" id="v-pills-array_merge-tab" data-toggle="pill" href="#array_merge">Merge</a> 

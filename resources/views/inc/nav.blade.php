@@ -95,6 +95,34 @@
           </div>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            oReally Book's
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('oReally.Chapter1') }}">Chapter 1</a>     
+            <a class="dropdown-item" href="{{ route('oReally.Chapter2') }}">Chapter 2</a>     
+            <a class="dropdown-item" href="{{ route('oReally.Chapter3') }}">Chapter 3</a>     
+            <a class="dropdown-item" href="{{ route('oReally.Chapter5') }}">Chapter 5</a>     
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            OOP Joseph
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('oop.Introduction') }}">Introduction</a>     
+            <a class="dropdown-item" href="{{ route('oop.create-classes-objects') }}">How to create classes and objects?</a>     
+            <a class="dropdown-item" href="{{ route('oop.this-keyword') }}">The $this keyword</a>     
+            <a class="dropdown-item" href="{{ route('oop.Chaining-methods-propertie') }}">Chaining methods and propertie</a>     
+            <a class="dropdown-item" href="{{ route('oop.Access-modifiers') }}">Access modifiers: public vs. private</a>     
+               
+            
+          </div>
+        </li>
+
 
         <li class="nav-item">
           <a class="nav-link" href="{{ route('defination') }}">defination</a>
