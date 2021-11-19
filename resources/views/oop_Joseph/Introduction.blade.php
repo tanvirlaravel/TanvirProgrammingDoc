@@ -3,15 +3,15 @@
 @section('content')
 
 
-<h1 class="my-4 text-primary text-center">Introduction</h1>
-
+<h1 class="mb-4 mt-1 text-primary heding-one">Introduction</h1>
+<hr id="top-heading">
 <div class="row">
-    <div class="col-4">
+    <div class="col-3">
         <ul class="list-group position-fixed" id="sidebar_menu">         
         </ul>
     </div>
 
-    <div class="col-8">
+    <div class="col-9">
 
       <h2 class="text-info">Why bother learning object oriented PHP?</h2>
       <p>Object oriented programming is the <strong><code>programming style</code></strong> </p>

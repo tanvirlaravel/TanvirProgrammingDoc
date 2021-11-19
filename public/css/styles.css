@@ -3,5 +3,36 @@
 }
 
 hr {
-    border: 1px solid rgb(241, 101, 7);
+    border: 1px solid rgb(12 10 0);
+}
+#sidebar_menu {
+    width: 270px !important;
+    border: 1px solid #ffffff;
+}
+#sidebar_menu li{
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9f1f1;
+}
+
+ul#sidebar_menu li:last-child  {
+    border-bottom:none;
+ }
+
+#sidebar_menu a {   
+    color: black;
+    text-shadow: 4px 4px 3px #e3e3e3;
+    letter-spacing: 1px;
+}
+
+#top-heading{
+    border: 1px solid rgb(237 242 245);
+}
+
+.heding-one{
+    text-shadow: 1px 1px 2px #889f99;
+    color: #000;
+    letter-spacing: 1px;
+}
+.navbar{
+    border-bottom: 3px inset #e9e2e2;
 }

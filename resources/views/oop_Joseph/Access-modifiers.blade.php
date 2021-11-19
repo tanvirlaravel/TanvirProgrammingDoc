@@ -3,15 +3,15 @@
 @section('content')
 
 
-<h1 class="my-4 text-primary text-center">Access modifiers: public vs. private</h1>
-
+<h1 class="mb-4 mt-1 text-primary heding-one">Access modifiers: public vs. private</h1>
+<hr id="top-heading">
 <div class="row">
-    <div class="col-4">
+    <div class="col-3">
         <ul class="list-group position-fixed" id="sidebar_menu">         
         </ul>
     </div>
 
-    <div class="col-8">
+    <div class="col-9">
      <h2 class="text-info">How to access a private property</h2>
      <p>
         We saw that we have no access to private properties from outside the class, but we still have to

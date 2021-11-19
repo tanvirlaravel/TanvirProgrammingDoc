@@ -3,15 +3,15 @@
 @section('content')
 
 
-<h1 class="my-4 text-primary text-center">The $this keyword</h1>
-
+<h1 class="mb-4 mt-1 text-primary heding-one">The $this keyword</h1>
+<hr id="top-heading">
 <div class="row">
-    <div class="col-4">
+    <div class="col-3">
         <ul class="list-group position-fixed" id="sidebar_menu">         
         </ul>
     </div>
 
-    <div class="col-8">
+    <div class="col-9">
         <h2 class="text-info">The $this keyword</h2>
         <p>The $this keyword indicates that we use the class’s own methods and properties, and
             allows us to have access to them within the class’s scope</p>

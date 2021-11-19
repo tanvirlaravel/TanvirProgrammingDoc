@@ -3,15 +3,15 @@
 @section('content')
 
 
-<h1 class="my-4 text-primary text-center">How to create classes and objects?</h1>
-
+<h1 class="mb-4 mt-1 text-primary heding-one">How to create classes and objects?</h1>
+<hr id="top-heading">
 <div class="row">
-    <div class="col-4">
+    <div class="col-3">
         <ul class="list-group position-fixed" id="sidebar_menu">         
         </ul>
     </div>
 
-    <div class="col-8">
+    <div class="col-9">
 
      <h2 class="text-info">Introduction</h2>
      <p>Object-oriented programming is a programming style in which it is customary to group all of

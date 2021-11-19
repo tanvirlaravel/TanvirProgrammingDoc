@@ -118,6 +118,10 @@
             <a class="dropdown-item" href="{{ route('oop.this-keyword') }}">The $this keyword</a>     
             <a class="dropdown-item" href="{{ route('oop.Chaining-methods-propertie') }}">Chaining methods and propertie</a>     
             <a class="dropdown-item" href="{{ route('oop.Access-modifiers') }}">Access modifiers: public vs. private</a>     
+            <a class="dropdown-item" href="{{ route('oop.Magic-methods-constants') }}">Magic methods and constants unveiled</a>     
+            <a class="dropdown-item" href="{{ route('oop.Inheritance') }}">Inheritance in object oriented programming</a>     
+            <a class="dropdown-item" href="{{ route('oop.Abstract-classes') }}">Abstract classes and methods</a>     
+            <a class="dropdown-item" href="{{ route('oop.Interfaces') }}">Interfaces - the next level of  abstraction</a>     
                
             
           </div>

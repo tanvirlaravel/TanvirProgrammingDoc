@@ -19,6 +19,10 @@ Route::view('/oop/create-classes-objects', 'oop_Joseph.create-classes-objects')-
 Route::view('/oop/this-keyword', 'oop_Joseph.this-keyword')->name('oop.this-keyword');
 Route::view('/oop/Chaining-methods-propertie', 'oop_Joseph.Chaining-methods-propertie')->name('oop.Chaining-methods-propertie');
 Route::view('/oop/Access-modifiers', 'oop_Joseph.Access-modifiers')->name('oop.Access-modifiers');
+Route::view('/oop/Magic-methods-constants', 'oop_Joseph.Magic-methods-constants')->name('oop.Magic-methods-constants');
+Route::view('/oop/Inheritance', 'oop_Joseph.Inheritance')->name('oop.Inheritance');
+Route::view('/oop/Abstract-classes', 'oop_Joseph.Abstract-classes')->name('oop.Abstract-classes');
+Route::view('/oop/Interfaces', 'oop_Joseph.Interfaces')->name('oop.Interfaces');
 
 
 /* end of PHP */
