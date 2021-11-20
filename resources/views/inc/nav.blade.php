@@ -128,8 +128,39 @@
         </li>
 
 
-        <li class="nav-item">
-          <a class="nav-link" href="{{ route('defination') }}">defination</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Defination
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('definations.a') }}">A</a>     
+            <a class="dropdown-item" href="{{ route('definations.b') }}">B</a>  
+            <a class="dropdown-item" href="{{ route('definations.c') }}">C</a>     
+            <a class="dropdown-item" href="{{ route('definations.d') }}">D</a>     
+            <a class="dropdown-item" href="{{ route('definations.e') }}">E</a>     
+            <a class="dropdown-item" href="{{ route('definations.f') }}">F</a>     
+            <a class="dropdown-item" href="{{ route('definations.g') }}">G</a>     
+            <a class="dropdown-item" href="{{ route('definations.h') }}">H</a>     
+            <a class="dropdown-item" href="{{ route('definations.i') }}">I</a>     
+            <a class="dropdown-item" href="{{ route('definations.j') }}">J</a>     
+            <a class="dropdown-item" href="{{ route('definations.k') }}">K</a>     
+            <a class="dropdown-item" href="{{ route('definations.l') }}">L</a>     
+            <a class="dropdown-item" href="{{ route('definations.m') }}">M</a>     
+            <a class="dropdown-item" href="{{ route('definations.n') }}">N</a>     
+            <a class="dropdown-item" href="{{ route('definations.o') }}">O</a>     
+            <a class="dropdown-item" href="{{ route('definations.p') }}">P</a>     
+            <a class="dropdown-item" href="{{ route('definations.q') }}">Q</a>     
+            <a class="dropdown-item" href="{{ route('definations.r') }}">R</a>     
+            <a class="dropdown-item" href="{{ route('definations.s') }}">S</a>     
+            <a class="dropdown-item" href="{{ route('definations.t') }}">T</a>     
+            <a class="dropdown-item" href="{{ route('definations.u') }}">U</a>     
+            <a class="dropdown-item" href="{{ route('definations.v') }}">V</a>     
+            <a class="dropdown-item" href="{{ route('definations.w') }}">W</a>     
+            <a class="dropdown-item" href="{{ route('definations.x') }}">X</a>     
+            <a class="dropdown-item" href="{{ route('definations.y') }}">Y</a>     
+            <a class="dropdown-item" href="{{ route('definations.z') }}">Z</a>     
+
+          </div>
         </li>
         
       </ul>
