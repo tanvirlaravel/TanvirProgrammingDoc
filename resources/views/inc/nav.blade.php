@@ -122,6 +122,8 @@
             <a class="dropdown-item" href="{{ route('oop.Inheritance') }}">Inheritance in object oriented programming</a>     
             <a class="dropdown-item" href="{{ route('oop.Abstract-classes') }}">Abstract classes and methods</a>     
             <a class="dropdown-item" href="{{ route('oop.Interfaces') }}">Interfaces - the next level of  abstraction</a>     
+            <a class="dropdown-item" href="{{ route('oop.Type-hinting') }}">Type hinting</a>     
+            <a class="dropdown-item" href="{{ route('oop.Namespaces-codeintegration') }}">Namespaces and code integration</a>     
                
             
           </div>

@@ -19,6 +19,8 @@ Route::view('/oop/Magic-methods-constants', 'oop_Joseph.Magic-methods-constants'
 Route::view('/oop/Inheritance', 'oop_Joseph.Inheritance')->name('oop.Inheritance');
 Route::view('/oop/Abstract-classes', 'oop_Joseph.Abstract-classes')->name('oop.Abstract-classes');
 Route::view('/oop/Interfaces', 'oop_Joseph.Interfaces')->name('oop.Interfaces');
+Route::view('/oop/Type-hinting', 'oop_Joseph.Type-hinting')->name('oop.Type-hinting');
+Route::view('/oop/Namespaces-codeintegration', 'oop_Joseph.Namespaces-codeintegration')->name('oop.Namespaces-codeintegration');
 
 
 /* end of PHP */
